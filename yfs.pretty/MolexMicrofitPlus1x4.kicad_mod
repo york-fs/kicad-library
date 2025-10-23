@@ -305,7 +305,7 @@
 		(uuid "57feff6d-a880-4165-a836-368b88764325")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/MyLibrary.pretty/MolexMicrofitPlus1x4.stp"
+	(model "${KIPRJMOD}/kicad-library/models/MolexMicrofitPlus1x4.stp"
 		(offset
 			(xyz -4.5 -4 0)
 		)
