@@ -1,0 +1,180 @@
+(footprint "SPU01M-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.17 5.26 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a4f86d2-3f72-457f-877a-0d0e6e964407")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPU01M-5"
+		(at 7.3 11.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92d7789f-8296-4a26-9249-722008c5aef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.meanwellusa.com/webapp/product/search.aspx?prod=SPU01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ac9f371-2594-4f30-86ca-71c6e1c4b8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Isolated DC/DC Converters - Through Hole 10.8-13.2Vin 5Vout 200mA SIP6 Unreg Iso "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e83c30c0-24ca-47bd-a89c-923873a4ccfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.38 6.02)
+		(end -7.38 12.22)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8619554b-b772-4775-8423-87d629b4b205")
+	)
+	(fp_line
+		(start -7.38 6.02)
+		(end -1.6 6.02)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f972d0-0584-4e43-bce3-9f4fff17cd55")
+	)
+	(fp_line
+		(start -7.38 12.22)
+		(end -1.6 12.22)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d83ac68-5d52-4618-a227-8dc06c2abbbc")
+	)
+	(fp_line
+		(start 1.6 12.2)
+		(end 11.89 12.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d0b1e3f-26cb-4251-ade7-4fb6273e0c00")
+	)
+	(fp_line
+		(start 1.61 6)
+		(end 11.9 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fc76578-2efd-4840-b4e7-b366df6abe4f")
+	)
+	(fp_line
+		(start 11.9 6)
+		(end 11.9 12.200008)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1deca821-bcd8-4d2e-a9f7-1b89499b2935")
+	)
+	(fp_rect
+		(start -7.38 6.02)
+		(end 11.92 12.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e1176d05-a3ea-43ca-bbae-5e0e04fa1306")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 7.62)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4f67db2-b913-4608-9c54-274f9e597df4")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 7.62)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b3544e7-520a-4ae8-8fd5-eedf52d08034")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 7.62)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ded0512-6d07-4afe-b4c7-03dadb44d94f")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 7.62)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f263b07f-f802-45f6-b570-f5bc92608467")
+	)
+	(pad "6" thru_hole circle
+		(at 7.62 7.62)
+		(size 1.524 1.524)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15e48797-3577-4e23-afae-b27c0042c296")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library/models/SPU01M-05.step"
+		(offset
+			(xyz 2.3 -9.5 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
