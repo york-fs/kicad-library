@@ -1,0 +1,195 @@
+(footprint "CDRR105NP-680MC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.4 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf418148-a7d4-4420-a5f8-f17770cdad41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CDRR105NP-680MC"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bfd1b770-661e-4b7b-8fb0-a0a826aa02c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2639662.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b81e514-1ec0-4620-8200-443c827e2268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CDRR105 Power Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "062b2b22-3dcc-4c9d-8606-f622c08f5c54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -5 4.16)
+		(end -5 -3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7050a9d7-713f-466a-9fa7-dc62542b1063")
+	)
+	(fp_line
+		(start -3.95 4.16)
+		(end -5 4.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a45a0ac4-6b8d-41b2-817d-9a2509c3a324")
+	)
+	(fp_line
+		(start -3.95 5)
+		(end -3.95 4.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6926efd-9068-48c7-834b-18c5e60dd417")
+	)
+	(fp_line
+		(start -3.2 -5)
+		(end -5 -3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab853fdd-b35c-4288-a463-673ba7a99a6a")
+	)
+	(fp_line
+		(start -1.8 -5)
+		(end -3.2 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3402207b-3191-415e-89f0-1bdb1d1f2804")
+	)
+	(fp_line
+		(start -1.8 5)
+		(end -3.95 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6629697e-91ea-4aa5-835c-5a4f1903592d")
+	)
+	(fp_line
+		(start 1.8 5)
+		(end 3.2 5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a382368-826f-47e8-bc84-6e0b3f3d512c")
+	)
+	(fp_line
+		(start 3.2 5)
+		(end 4.99 3.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0c4320b-2199-47fe-9fa5-9cee62a567ec")
+	)
+	(fp_line
+		(start 4.99 -5.000006)
+		(end 1.8 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d13b4a1e-ca6a-4edb-8304-0f8888b5a5d1")
+	)
+	(fp_line
+		(start 4.99 3.21)
+		(end 4.99 -5.000006)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd088b77-25d2-4859-b638-d565315cb439")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "68dcf224-665d-4d21-9779-80bfe4e82371")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 4.05)
+		(size 3.2 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b061f7cf-4b4c-431f-8216-0db9b931c9a8")
+	)
+	(pad "2" smd roundrect
+		(at 0 -4.05)
+		(size 3.2 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c04043b3-3ec1-436f-9a79-cfb3ab0e027d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-library/models/SUMIDA-CDRR105.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
