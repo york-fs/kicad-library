@@ -55,8 +55,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_rect
-		(start 0 0)
-		(end 52 8.5)
+		(start 3 0)
+		(end 53 8.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -67,7 +67,7 @@
 	)
 	(fp_rect
 		(start -3.5 -0.5)
-		(end 55.5 9)
+		(end 59.5 9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -97,7 +97,7 @@
 		(uuid "d48b22c7-9666-4192-844a-ba07944556eb")
 	)
 	(pad "2" thru_hole circle
-		(at 54 4.25)
+		(at 58 4.25)
 		(size 2 2)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
