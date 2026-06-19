@@ -231,7 +231,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/kicad-library/models/Keystone_3557-2.stp"
 		(offset
-			(xyz -0.231 -0.099 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
